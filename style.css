@@ -72,11 +72,16 @@ img {
   clear: both;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap");
+
+
 @media screen and (max-width: 420px) {
 
    body {
       padding: 0;
+      font-family: 'Montserrat', sans-serif;
    }
+
    .row {
       width: 100%;
       margin: 0px;
@@ -98,11 +103,11 @@ img {
       display: block;
       margin: 0 auto;
       padding: 10px;
-      height: 15vw;
+      height: 10vw;
    }
 
    img {
-      height: 20vw;
+      height: 15vw;
    }
 
 }
