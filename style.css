@@ -74,9 +74,12 @@ img {
 
 @media screen and (max-width: 420px) {
 
+   body {
+      padding: 0;
+   }
    .row {
       width: 100%;
-      margin-top: 0px;
+      margin: 0px;
    }
 
    #lezioni .row>.left,
@@ -95,13 +98,11 @@ img {
       display: block;
       margin: 0 auto;
       padding: 10px;
+      height: 15vw;
    }
 
    img {
-      height: 100px;
+      height: 20vw;
    }
-
-
-
 
 }
